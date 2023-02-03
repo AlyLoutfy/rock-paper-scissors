@@ -52,7 +52,7 @@ function game() {
     } else if (roundResult.includes("Lose")) {
       scoreComputer++;
     } 
- }
+  }
 
   if(scorePlayer === scoreComputer) {
     console.log("It's a Tie!");
